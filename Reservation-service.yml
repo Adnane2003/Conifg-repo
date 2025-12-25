@@ -3,7 +3,7 @@ server:
 
 spring:
   application:
-    name: RESERVATION-SERVICE
+    name: Reservation-service
   datasource:
     url: jdbc:postgresql://localhost:5432/skaneasy
     username: postgres

@@ -3,7 +3,7 @@ server:
 
 spring:
   application:
-    name: ANNONCE-SERVICE
+    name: Annonce-service
 
   datasource:
     url: jdbc:postgresql://localhost:5432/skaneasy

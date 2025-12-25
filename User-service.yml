@@ -2,19 +2,22 @@ server:
   port: 8081
 
 spring:
+  application:
+    name: User-service
+
   datasource:
     url: jdbc:postgresql://localhost:5432/skaneasy
     username: postgres
-    # password vide (trust)
+    password: postgres
+    driver-class-name: org.postgresql.Driver
 
   jpa:
     hibernate:
       ddl-auto: update
-    show-sql: true
+    open-in-view: false
     properties:
       hibernate:
         dialect: org.hibernate.dialect.PostgreSQLDialect
-
 
 eureka:
   client:
